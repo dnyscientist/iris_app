@@ -30,4 +30,10 @@ if st.button("Predict"):
 # Show Results when the button is clicked
     result = species[np.argmax(prediction)]
     st.write("**This flower belongs to " + result + " class**")
+    if result == 'setosa':
+        st.image("setosa.jpg")
+    elif result == 'versicolor':
+        st.image("versicolor.jpg")
+    else:
+        st.image("virginica.jpg")
 
