@@ -7,3 +7,4 @@ scikit_learn
 streamlit
 streamlit_folium
 keras
+tensorflow
